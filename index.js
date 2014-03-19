@@ -4,7 +4,7 @@
  */
 
 var prefixes = 'Webkit Moz ms Ms O'.split(' ');
-var docElemStyle = document.documentElement.style;
+var docElemStyle = window.document.documentElement.style;
 
 function getStyleProperty( propName ) {
   if ( !propName ) {
