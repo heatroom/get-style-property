@@ -21,7 +21,7 @@ function getStyleProperty( propName ) {
 
   // test vendor specific properties
   var prefixed;
-  for ( var i=0, len = prefixes.length; i < len; i++ ) {
+  for ( var i = 0, len = prefixes.length; i < len; i++ ) {
     prefixed = prefixes[i] + propName;
     if ( typeof docElemStyle[ prefixed ] === 'string' ) {
       return prefixed;
